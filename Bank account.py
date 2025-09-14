@@ -59,7 +59,7 @@ class bank:
 
 
     def display(self):  #diplay function requires no parameters 
-        print(f" here is the current banklist: {self.bankList} ") #outputs all the bank details in the banklist 
+        print(f" here is the current banklist: {self.bankList} ") #outputs all the bank details in the banklist
 
 
 
@@ -72,7 +72,7 @@ class bank:
 test = bank() #creates an instance of the class 
 
 test.add("malakai", 363, 700) #calls the add method with parameters to add an account to the banklist 
-test.add("nathan",266, 1000) 
+test.add("nathan",266, 1000) #calls the add method with another instance 
 
 test.deposit(363, 20) #calls deposit method with sum and account number 
 
